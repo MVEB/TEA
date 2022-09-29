@@ -15,6 +15,7 @@ def calcula_calificacion(notas):
     else:
         print("error")
     return calificacion
+    
 try:
  notas = float(input("Ingrese la calificacion : "))
  calcula_calificacion(notas)
